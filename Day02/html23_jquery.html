@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jQuery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('input').click(function () {
+                $('.page').slideToggle('slow');
+            });
+
+            $('.box').css({
+                width: '100px',
+                height: '100px',
+                backgroundColor: 'red'
+            }).delay(500)
+
+            .animate({
+                width: '500px',
+                opacity: 0.5
+            }, 1500);
+        });
+    </script>
+</head>
+<body>    
+    <input type="button" value="Toggle">
+    <div class="page">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam veritatis dignissimos officia accusantium maiores sunt eius vitae, soluta consequatur a corrupti! Facere necessitatibus, sapiente architecto assumenda ratione debitis, nesciunt officia quo, obcaecati itaque libero similique tempora dolor ipsum aliquid modi beatae pariatur voluptatum! Asperiores pariatur rem accusamus debitis vitae inventore possimus nam magni deserunt, adipisci ipsam vero veritatis explicabo nemo itaque repudiandae eveniet iure officiis cupiditate ullam sequi. Error odio esse maiores delectus ea? Officia, possimus sequi laborum vitae similique quod inventore perferendis unde voluptatum odit libero culpa eveniet odio maiores voluptatibus alias dolor. Quod earum corporis alias quibusdam quisquam!</p>
+    </div>
+
+    <div class="box"></div>
+</body>
+</html>

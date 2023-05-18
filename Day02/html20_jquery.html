@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jQuery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            // $('img').css('alt', 'jQuery로 만든 이미지');
+            // $('img').css('src', 'https://picsum.photos/640/300');
+            // $('img').css('width', '150');     
+            // 둘다 동일한 기능
+            $('img').css({
+                alt: 'jQuery json으로 정리한 속성값',
+                src: function (index) {
+                    var width = (index + 1) * 100;
+                    console.log(width);
+
+                    return 'https://picsum.photos/150/100' + width + '/100'
+                },
+                
+                width: function (index) {
+                    var width = (index + 1) * 100;
+                    return width;
+                }
+            });            
+        });
+    </script>
+</head>
+<body>
+    <img>
+    <img>
+    <img>
+</body>
+</html>
