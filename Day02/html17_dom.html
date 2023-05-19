@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script> -->
-    <script>
+    <script>        
         window.onload = function () {
             document.body.setAttribute('id', 'test'); // 기본 정적인 html에는 없던 속성을 추가가능
 
@@ -15,7 +15,7 @@
             console.log(val);
 
             var title = document.getElementById('title');
-            var title_class = title.getAttribute('class');
+            var title_class =  title.getAttribute('class');
             console.log(title_class);
             title.setAttribute('class', 'jsclass');
         }

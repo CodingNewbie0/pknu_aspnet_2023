@@ -11,28 +11,26 @@
         h1 {
             background-color: red;
         }
-    </style>
+    </style>    
     <script>
-        // 객체에 접근한다. -> document상에 내가 원하는 요소를 찾아내는 것
+        // 객체에 접근한다 -> document상에 내가 원하는 요소를 찾아내는 것
         window.onload = function() {
-            // DOM
             document.querySelector('h1').style.backgroundColor = 'violet';
             // subtitle아이디를 가진 h2 요소(객체)로 할당
             var subtitle = document.getElementById('subtitle');
             // style을 동적으로 변경
             subtitle.style.color = 'Orange';
-            subtitle.style.backgroundColor = 'Red';
+            subtitle.style.backgroundColor = 'Red';            
             subtitle.innerHTML = "자바스크립트에서 변경!!";
 
             var headers = document.querySelectorAll('h3');
-
             for (var i = 0; i < headers.length; i++) {
                 var header = headers[i];
                 header.style.color = '#ffff00';
                 header.style.backgroundColor = 'brown';
-                header.innerHTML = 'Loop ' + (i + 1);
+                header.innerHTML = 'Loop ' + (headers.length - i);
             }
-        }
+        }        
     </script>
 </head>
 <body>

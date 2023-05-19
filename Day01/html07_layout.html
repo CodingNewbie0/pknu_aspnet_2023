@@ -13,23 +13,29 @@
             margin: 0 auto;
             background-color: red;
         }
-        
+
         #wrap {
             width: 600px;
             margin: 0 auto;
             background-color: gainsboro;
-            overflow:  hidden;
+            overflow: hidden;
         }
-        
+
         #aside {
             width: 150px;
-            margin: right;
+            float: right;
             background-color: blueviolet;
         }
-        
+
+        #content {
+            width: 450px;
+            float: left;
+            background-color: aquamarine;
+        }
+
         #footer {
-            width: 150px;
-            margin: left;
+            width: 600px;
+            margin: 0 auto;
             background-color: aqua;
         }
 
@@ -40,9 +46,8 @@
         .options {
             background-color: cadetblue;
         }
-
         /* 후손선택자 */
-        #header > h1 {
+        #header h1 {
             font-size: larger;
         }
         /* 자손선택자 */
@@ -52,10 +57,10 @@
 
         /* 요소에 마우스를 올렸을때 처리될 디자인 */
         h1:hover {
-            color: white;
+            color:white;
         }
         input:focus {
-            width: 100px;
+            width: 100px; /* em/rem % */
             border: solid 5px #03c75a;
         }
     </style>
@@ -64,7 +69,7 @@
     <div id="header">
         <h1>#header 영역</h1>
     </div>
-    <div id="wrap">        
+    <div id="wrap">
         <div id="aside">
             <h2>#aside 영역</h2>
         </div>
