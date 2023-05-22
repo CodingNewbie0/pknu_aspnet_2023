@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet01_wepapp", "aspnet01_wepapp\aspnet01_wepapp.csproj", "{E495B67B-5EA5-471B-B29A-9AC81AFE20DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet02_boardapp", "aspnet02_boardapp\aspnet02_boardapp.csproj", "{8B599D79-6639-4BEB-A461-7F699B928929}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E495B67B-5EA5-471B-B29A-9AC81AFE20DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E495B67B-5EA5-471B-B29A-9AC81AFE20DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E495B67B-5EA5-471B-B29A-9AC81AFE20DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E495B67B-5EA5-471B-B29A-9AC81AFE20DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B599D79-6639-4BEB-A461-7F699B928929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B599D79-6639-4BEB-A461-7F699B928929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B599D79-6639-4BEB-A461-7F699B928929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B599D79-6639-4BEB-A461-7F699B928929}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C7FDB8C-0477-466F-B686-4A43A01A09C1}
+	EndGlobalSection
+EndGlobal
