@@ -1,0 +1,43 @@
+﻿@model aspnet02_boardapp.Models.Board
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container p3">
+    <div class="row pt-4">
+        <div class="col-8">
+            <h2 class="text-primary">게시판 글삭제</h2>
+        </div>
+        <div class="col-4 text-end">
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col">
+            <h5 class="text-warning">삭제하시겠습니까?</h5>
+        </div>
+        <div class="col-8">
+            <h5 class="text-primary">삭제된 내용은 영구히 사라집니다.</h5>
+        </div>
+    </div>
+</div>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <form asp-action="DeletePost">
+                <input type="hidden" asp-for="Id"/>
+                <br />
+                <div class="form-group text-end">
+                    <button type="submit" value="삭제" class="btn btn-sm btn-primary">
+                        <span class="bi bi-trash3"></span>&nbsp;삭제
+                    </button>
+                    <a asp-controller="Board" asp-action="Index" class="btn btn-sm btn-success">
+                        <i class="bi bi-list-ol"></i>&nbsp;목록
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -37,3 +37,9 @@ Bootstrap 앨범사이트 클로닝
 ASP.NET Core MVC 게시판
 
 <img src="https://raw.githubusercontent.com/hugoMGSung/pknu_aspnet_2023/main/images/aspnet03.png" width="700">
+
+## 5일차
+- ASP.NET MVC
+	- 게시판 페이징까지
+	
+<img src="https://raw.githubusercontent.com/hugoMGSung/pknu_aspnet_2023/main/images/aspnet04.png" width="700">
