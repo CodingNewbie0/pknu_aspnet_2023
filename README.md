@@ -50,6 +50,8 @@ ASP.NET Core MVC 게시판
 	- 게시판 정리
 	- 계정관리 추가
 
+<img src="https://raw.githubusercontent.com/CodingNewBie0/pknu_aspnet_2023/main/images/aspnet05.png" width="700">
+
 ## 7일차
 - ASP.NET Core MVC
 	- 게시판 정리
@@ -66,6 +68,18 @@ ASP.NET Core MVC 게시판
 - ASP.NET Core MVC
 	- 부트스트랩 테마(SEO Dream) 적용
 
+<img src="https://raw.githubusercontent.com/CodingNewBie0/pknu_aspnet_2023/main/images/aspnet06.png" width="700">
+
+## 9일차
+- ASP.NET Core MVC
+	- SEO Dream 테마 완료
 - ASP.NET RestAPI
-- 개인포트폴리오
+	- RestAPI Server
+	- WPF Cilent
+
+## 9일차
+- ASP.NET RestAPI
+	- RestAPI Server
+	- WPF Cilent
+- 개인 포트폴리오 웹
 	- 부트스트랩 테마 재적용
