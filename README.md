@@ -43,14 +43,14 @@ ASP.NET Core MVC 게시판
 	- 게시판 페이징
 		- Trumbowyg
 	
-<img src="https://raw.githubusercontent.com/CodingNewBie0/pknu_aspnet_2023/main/images/aspnet04.png" width="700">
+<img src="https://github.com/CodingNewbie0/pknu_aspnet_2023/blob/main/images/aspnet04.gif?raw=true" width="700">
 
 ## 6일차
 - ASP.NET MVC
 	- 게시판 정리
 	- 계정관리 추가
 
-<img src="https://raw.githubusercontent.com/CodingNewBie0/pknu_aspnet_2023/main/images/aspnet05.png" width="700">
+<img src="https://github.com/CodingNewbie0/pknu_aspnet_2023/blob/main/images/aspnet05.gif?raw=true" width="700">
 
 ## 7일차
 - ASP.NET Core MVC
@@ -68,7 +68,7 @@ ASP.NET Core MVC 게시판
 - ASP.NET Core MVC
 	- 부트스트랩 테마(SEO Dream) 적용
 
-<img src="https://raw.githubusercontent.com/CodingNewBie0/pknu_aspnet_2023/main/images/aspnet06.png" width="700">
+<img src="https://github.com/CodingNewbie0/pknu_aspnet_2023/blob/main/images/aspnet06.gif?raw=true" width="700">
 
 ## 9일차
 - ASP.NET Core MVC
