@@ -115,3 +115,15 @@ RestAPI Server
 - ASP.NET RestAPI
 	- RestAPI Server 수정
 	- FrontEnd Server 작업계속
+	
+RestAPI사용 FrontEnd Wab
+
+<img src="https://raw.githubusercontent.com/codingnewbie0/pknu_aspnet_2023/main/images/restapi02.gif" width="700">
+
+## 13일차
+- ASP.NET RestAPI
+	- Wab 앱 연동
+		
+RestAPI사용 Wab App 및 Web화면
+
+<img src="https://raw.githubusercontent.com/codingnewbie0/pknu_aspnet_2023/main/images/restapi03.png" width="700">	
